@@ -58,3 +58,17 @@ span {
 .button-share:focus, .button:focus{ /* for eliminating outline around button */
     outline: none;
 }
+
+/* screen responsiveness */
+
+@media screen and (max-width: 800px) {
+    
+    body {
+        margin: 10px;
+    }
+    
+    span {
+        font-size: 3em;
+    }
+    
+}
